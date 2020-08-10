@@ -10,15 +10,27 @@ html {
 
 h1 {
   padding: .77rem 0;
-  background-color: #010c3f;
+  background-color: #25034d;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 1.88rem;
   color: #fff;
 }
 
-h1 .highlight {
-  color: #6c41ec;
+h1 .highlight1 {
+  color: #835cfa;
+  font-size: 1.7rem;
+}
+
+h1 .highlight2 {
+  color: #835cfa;
+  font-size: 1.88rem;
+
+}
+
+h1 .highlight3 {
+  color: #835cfa;
+  font-size: 2.04rem;
 }
 
 h2 {

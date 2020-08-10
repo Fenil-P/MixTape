@@ -1,5 +1,6 @@
 import React from 'react';
 import './Playlist.css';
+import edit from './edit-icon.png';
 
 import Tracklist from '../TrackList/Tracklist';
 
@@ -21,7 +22,10 @@ export class Playlist extends React.Component
   {
     return (
       <div className="Playlist">
-        <input defaultValue={'New Playlist'} onChange={this.handleNameChange} />
+      <div className="i">
+
+        <span><input defaultValue={'New Playlist'} onChange={this.handleNameChange} id="name"/><label for="name" ><img src={edit} /></label></span>
+      </div>
         <Tracklist
           tracks={this.props.playlistTracks}
           onRemove={this.props.onRemove}

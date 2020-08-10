@@ -27,7 +27,6 @@ class Track extends React.Component
 
   removeTrack(e)
   {
-    console.log(`Removing ${this.props.track.name}`);
     this.props.onRemove(this.props.track);
   }
 
