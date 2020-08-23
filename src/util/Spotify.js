@@ -1,5 +1,5 @@
-const clientID = '82a000bdde564feaa684fc9b6d9d8c16';
-const redirectURI = "http://localhost:3000/";
+const clientID = '';    //api key here
+const redirectURI = "http://mixtttape.surge.sh/";
 
 let accessToken, expiresIn;
 
